@@ -4,7 +4,7 @@ import pystache
 import re
 import json
 import codecs
-import HTMLParser
+from html.parser import HTMLParser
 
 INTEGERS = ["int", "unsigned int", "short", "unsigned short", "unsigned char", "signed char", "uint8", "int8", "int16", "uint16", "int32", "uint32"]
 
